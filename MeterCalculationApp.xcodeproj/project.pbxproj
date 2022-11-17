@@ -13,6 +13,9 @@
 		3466C0D228CC8AE500E2FAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3466C0D028CC8AE500E2FAE8 /* Main.storyboard */; };
 		3466C0D428CC8AF000E2FAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3466C0D328CC8AF000E2FAE8 /* Assets.xcassets */; };
 		3466C0D728CC8AF000E2FAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3466C0D528CC8AF000E2FAE8 /* LaunchScreen.storyboard */; };
+		3466C0E128CC8C4F00E2FAE8 /* HouseHoldTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C0E028CC8C4F00E2FAE8 /* HouseHoldTableViewController.swift */; };
+		3466C0E328CC91C200E2FAE8 /* NewHouseHoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C0E228CC91C200E2FAE8 /* NewHouseHoldViewController.swift */; };
+		3466C0E528CC9C1000E2FAE8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C0E428CC9C1000E2FAE8 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3466C0D328CC8AF000E2FAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3466C0D628CC8AF000E2FAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3466C0D828CC8AF000E2FAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3466C0E028CC8C4F00E2FAE8 /* HouseHoldTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHoldTableViewController.swift; sourceTree = "<group>"; };
+		3466C0E228CC91C200E2FAE8 /* NewHouseHoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHouseHoldViewController.swift; sourceTree = "<group>"; };
+		3466C0E428CC9C1000E2FAE8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				3466C0D328CC8AF000E2FAE8 /* Assets.xcassets */,
 				3466C0D528CC8AF000E2FAE8 /* LaunchScreen.storyboard */,
 				3466C0D828CC8AF000E2FAE8 /* Info.plist */,
+				3466C0E028CC8C4F00E2FAE8 /* HouseHoldTableViewController.swift */,
+				3466C0E228CC91C200E2FAE8 /* NewHouseHoldViewController.swift */,
+				3466C0E428CC9C1000E2FAE8 /* DataManager.swift */,
 			);
 			path = MeterCalculationApp;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3466C0CF28CC8AE500E2FAE8 /* ViewController.swift in Sources */,
+				3466C0E528CC9C1000E2FAE8 /* DataManager.swift in Sources */,
 				3466C0CB28CC8AE500E2FAE8 /* AppDelegate.swift in Sources */,
 				3466C0CD28CC8AE500E2FAE8 /* SceneDelegate.swift in Sources */,
+				3466C0E328CC91C200E2FAE8 /* NewHouseHoldViewController.swift in Sources */,
+				3466C0E128CC8C4F00E2FAE8 /* HouseHoldTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
